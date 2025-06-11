@@ -1,0 +1,34 @@
+{
+  "name": "WeatherApp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@gorhom/bottom-sheet": "^5.1.6",
+    "@react-navigation/stack": "^7.3.3",
+    "@types/react": "~19.0.10",
+    "axios": "^1.4.0",
+    "expo": "^53.0.0",
+    "expo-constants": "~17.1.6",
+    "expo-location": "~18.1.5",
+    "i18n-js": "^4.2.0",
+    "react": "19.0.0",
+    "react-dom": "19.0.0",
+    "react-native": "0.79.3",
+    "react-native-gesture-handler": "~2.24.0",
+    "react-native-localize": "^3.3.1",
+    "react-native-reanimated": "~3.17.4",
+    "react-native-web": "^0.20.0",
+    "typescript": "~5.8.3"
+  },
+  "devDependencies": {
+    "@types/react-native": "^0.73.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "dotenv": "^16.0.0"
+  }
+}
