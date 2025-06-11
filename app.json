@@ -11,22 +11,36 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [ 
+    "assetBundlePatterns": [
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mohitpandey.weatherapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.mohitpandey.weatherapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
-      "openWeatherApiKey": "YOUR_API_KEY_HERE"
+      "openWeatherApiKey": "YOUR_API_KEY_HERE",
+      "eas": {
+        "projectId": "547dbd47-9cec-428f-8566-3176a74ab7d3"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/547dbd47-9cec-428f-8566-3176a74ab7d3"
     }
   }
 }

@@ -8,7 +8,7 @@ const Stack = createStackNavigator();
 export function AppNavigator() {
   return (
     <Stack.Navigator>
-      <Stack.Screen name="Home" component={HomeScreen} />
+      <Stack.Screen name="Weather" component={HomeScreen} />
       <Stack.Screen name="HourlyForecast" component={HourlyForecast} />
     </Stack.Navigator>
   );

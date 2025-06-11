@@ -77,6 +77,6 @@ async function loadHourlyForDate(date) {
   
 
   return { weather, forecast, error,
-    loadByCoords, searchByCity, refresh,
+    loadByCoords, searchByCity, refresh,loading,
     hourly, loadingHourly, loadHourlyForDate };
 }
