@@ -16,7 +16,6 @@ import {
 import { WeatherCard } from '../components/WeatherCard';
 import { useWeather } from '../hooks/useWeather';
 import { showToast } from '../utils/toast';
-
 const { width } = Dimensions.get('window');
 const CARD_WIDTH = width * 0.6;
 
