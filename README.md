@@ -15,7 +15,6 @@ A clean, minimal React Native & Expo app that shows current weather, a 5‑day f
 - 📐 **Consistent Card Layout**: uniform card widths and spacing  
 
 ---
-
 ## 📷 Screenshots
 
 **Current Weather**  
@@ -24,8 +23,7 @@ A clean, minimal React Native & Expo app that shows current weather, a 5‑day f
 **Hourly Forecast Sheet**  
 ![Hourly Forecast Sheet](./screenshots/hourly-sheet.png)
 
-
-## 📋 Prerequisites
+## 📋 Prerequisites 
 
 - **Node.js** v14 or newer  
 - **Expo CLI** installed globally:  

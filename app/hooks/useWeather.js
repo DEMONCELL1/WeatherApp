@@ -1,10 +1,10 @@
 import * as Location from 'expo-location';
 import { useState } from 'react';
 import {
-    fetch5DayForecast,
-    fetchCurrentWeather,
-    fetchHourlyForecast,
-    fetchWeatherByCity
+  fetch5DayForecast,
+  fetchCurrentWeather,
+  fetchHourlyForecast,
+  fetchWeatherByCity
 } from '../services/weatherService';
 
 export function useWeather() {
@@ -77,6 +77,6 @@ async function loadHourlyForDate(date) {
   
 
   return { weather, forecast, error,
-    loadByCoords, searchByCity, refresh,
+    loadByCoords, searchByCity, refresh,loading,
     hourly, loadingHourly, loadHourlyForDate };
 }
